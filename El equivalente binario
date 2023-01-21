@@ -1,0 +1,9 @@
+number=int(input())
+temp=number
+binary=""
+while number>0:
+    rem=number%2
+    binary+=str(rem)
+    number=number//2
+print("El equivalente binario de "+str(temp)+" es "+binary[::-1]+" .")
+print("¡Muchas gracias!")
