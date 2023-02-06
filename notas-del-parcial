@@ -1,0 +1,5 @@
+Nota = int(input())
+if(Nota >= 70 and Nota <= 100):
+    print("Promocionado!")
+if(Nota<=70):
+    print('Desaprobado!')
